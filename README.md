@@ -6,19 +6,22 @@ Bem-vindo ao Aplicativo de Detecção de Imagens! Este aplicativo de desktop con
 
 Siga estes passos para instalar o Aplicativo de Detecção de Imagens:
 
-1. **Clone o Repositório**: No terminal(cmd), clone ou baixe este repositório para sua máquina local.
+
+1. **Instale o Python 3.10+**: Se você ainda não tiver o Python 3.10+ instalado, siga as instruções adequadas para sua plataforma no [site oficial do Python](https://www.python.org/downloads/).
+
+2. **Clone o Repositório**: No terminal(cmd), clone ou baixe este repositório para sua máquina local.
 
    ```bash
    git clone https://github.com/Joaosamaia/Image-recognition
    ```
 
-2. **Navegue até o Diretório**: No terminal(cmd), mova-se para o diretório do repositório clonado.
+3. **Navegue até o Diretório**: No terminal(cmd), mova-se para o diretório do repositório clonado.
 
    ```bash
    cd Image-recognition
    ```
 
-3. **Baixe os Arquivos YOLO**:
+4. **Baixe os Arquivos YOLO**:
     - [COCO Names](https://github.com/pjreddie/darknet/blob/master/data/coco.names)
     - [YOLOv3 Weights](https://pjreddie.com/media/files/yolov3.weights)
     - [YOLOv3 Config](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)
@@ -26,12 +29,12 @@ Siga estes passos para instalar o Aplicativo de Detecção de Imagens:
     e coloque-os dentro do diretório do projeto.
    
 
-4. **Instale o Aplicativo**: No terminal(cmd), instale o Aplicativo de Detecção de Imagens usando o arquivo setup.py.
+5. **Instale o Aplicativo**: No terminal(cmd), instale o Aplicativo de Detecção de Imagens usando o arquivo setup.py.
 
    ```bash
    python setup.py install
    ```
-5. **Organize o diretório do projeto**: Confirme que a o diretório do projeto está organizado de maneira correta, conforme o exemplo abaixo.
+6. **Organize o diretório do projeto**: Confirme que a o diretório do projeto está organizado de maneira correta, conforme o exemplo abaixo.
    ```plaintext
    ..\
    ├── coco.names
