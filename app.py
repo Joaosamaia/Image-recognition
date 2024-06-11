@@ -6,9 +6,9 @@ from tkinter import Button, filedialog
 from PIL import Image, ImageTk
 
 # Carregando os arquivos do modelo YOLO como variaveis
-yolo_weights = 'yolo_files/yolov3.weights'
-yolo_config = 'yolo_files/yolov3.cfg'
-coco_names = 'yolo_files/coco.names'
+yolo_weights = 'yolov3.weights'
+yolo_config = 'yolov3.cfg'
+coco_names = 'coco.names'
 
 # Carregando o diretorio atual como variavel
 project_dir = 'C:\Image-recognition'
