@@ -11,7 +11,14 @@ yolo_config = 'yolov3.cfg'
 coco_names = 'coco.names'
 
 # Carregando o diretorio atual como variavel
-project_dir = os.path.abspath(os.path.dirname(__file__)) + '/test-midia'
+current_dir = os.path.abspath(os.path.dirname(__file__))
+
+# Obtendo o diretorio que contem o atual
+parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
+potential_dir = os.path.join(parent_dir, 'test-midia')
+
+# Checa se o caminho criado existe
+project_dir = potential_dir if os.path.exists(potential_dir) else 'C:/'
 
 # Funcao para retornar a tela principal e redefinir os botoes
 def return_main_screen():
