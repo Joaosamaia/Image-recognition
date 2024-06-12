@@ -33,7 +33,7 @@ Siga estes passos para instalar o Aplicativo de Detecção de Imagens:
 
    ```bash
    pip install setuptools //instale a dependencia caso nao ha possua
-   
+
    python setup.py install
    ```
 6. **Organize o diretório do projeto**: Confirme que a o diretório do projeto está organizado de maneira correta, conforme o exemplo abaixo.
@@ -52,15 +52,20 @@ Siga estes passos para instalar o Aplicativo de Detecção de Imagens:
 
 Para usar o Aplicativo de Detecção de Imagens, siga estes passos:
 
-1. **Execute o Aplicativo**: No terminal(cmd), execute o aplicativo executando o seguinte comando no terminal:
+1. **Execute o Aplicativo**: 
 
+      No terminal(cmd), execute o aplicativo executando o seguinte comando:
    ```bash
    image-detection
    ```
-      Ou usando o arquivo app.py.
+      Ou execute o arquivo app.py diretamente:
 
    ```bash
    python app.py
+   ```
+      Se certifique de ter as dependecias necessarias instaladas ^-^ (caso nao as tenha, use o comando abaixo)
+   ```bash
+   pip install opencv-python-headless numpy pillow
    ```
 
 2. **Escolha Imagem ou Vídeo**: Assim que a janela do aplicativo abrir, você poderá escolher processar uma imagem ou um vídeo. Clique no botão respectivo ("Selecionar Imagem" ou "Selecionar Vídeo") para escolher seu arquivo de mídia.
