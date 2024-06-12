@@ -11,7 +11,7 @@ yolo_config = 'yolov3.cfg'
 coco_names = 'coco.names'
 
 # Carregando o diretorio atual como variavel
-project_dir = os.path.abspath(os.path.dirname(__file__))
+project_dir = os.path.abspath(os.path.dirname(__file__)) + '/test-midia'
 
 # Funcao para retornar a tela principal e redefinir os botoes
 def return_main_screen():
