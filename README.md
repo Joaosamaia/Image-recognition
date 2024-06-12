@@ -7,7 +7,7 @@ Bem-vindo ao Aplicativo de Detecção de Imagens! Este aplicativo de desktop con
 Siga estes passos para instalar o Aplicativo de Detecção de Imagens:
 
 
-1. **Instale o Python 3.10+**: Se você ainda não tiver o Python 3.10+ instalado, siga as instruções adequadas para sua plataforma no [site oficial do Python](https://www.python.org/downloads/).
+1. **Instale o Python 3.10+**: Se você ainda não tiver o Python 3.10+ instalado, siga as instruções adequadas para seu sistema operacional e faça download no [site oficial do Python](https://www.python.org/downloads/).
 
 2. **Clone o Repositório**: No terminal(cmd), clone ou baixe este repositório para sua máquina local.
 
