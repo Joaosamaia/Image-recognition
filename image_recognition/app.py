@@ -116,7 +116,7 @@ def process_video():
         is_running = True
         
         # Funcao para atualizar o video frame a frame
-        def update_camera():
+        def update_capture():
             global cap, panel, net, classes, is_running
             if is_running and cap is not None:
                 ret, frame = cap.read()
@@ -175,9 +175,9 @@ def process_video():
                     panel.image = img
             # Se o video ainda estiver rolando, agenda a proxima atualizacao de frame apos 5ms
             if is_running:
-                panel.after(5, update_camera)
+                panel.after(5, update_capture)
         
-        update_camera()
+        update_capture()
     else:
         cap = None
         return
