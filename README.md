@@ -32,6 +32,8 @@ Siga estes passos para instalar o Aplicativo de Detecção de Imagens:
 5. **Instale o Aplicativo**: No terminal(cmd), instale o Aplicativo de Detecção de Imagens usando o arquivo setup.py.
 
    ```bash
+   pip install setuptools //instale a dependencia caso nao ha possua
+   
    python setup.py install
    ```
 6. **Organize o diretório do projeto**: Confirme que a o diretório do projeto está organizado de maneira correta, conforme o exemplo abaixo.
